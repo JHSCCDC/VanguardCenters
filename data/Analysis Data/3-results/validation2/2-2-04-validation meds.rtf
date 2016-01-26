@@ -1,0 +1,1359 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033
+{\fonttbl
+{\f1\froman\fprq2\fcharset0 Times New Roman;}
+{\f2\fmodern\fprq1\fcharset0 Courier New;}
+}{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+\red0\green0\blue128;
+\red0\green128\blue128;
+\red0\green128\blue0;
+\red128\green0\blue128;
+\red128\green0\blue0;
+\red128\green128\blue0;
+\red128\green128\blue128;
+\red192\green192\blue192;
+\red187\green187\blue187;
+}{\stylesheet{\widctlpar\adjustright\fs20\cgrid\snext0 Normal;}{\*\cs10\additive Default Paragraph Font;}
+}{\info{\title V9.4 SAS System Output}{\author SAS Version 9.4}{\operator SAS Version 9.4}{\version1}{\creatim\yr2016\mo1\dy7\hr10\min21\sec14}}
+\widowctrl\ftnbj\aenddoc\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\fet0\paperw12240\paperh15840\margl360\margr360\margt360\margb360
+\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{Simple data listing (first 5 obs)\cell}
+{\row}
+\pard{\par}}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX}{\*\bkmkend IDX}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx934
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3801
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4712
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5985
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7433
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8732
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10500
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11499
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{SUBJID\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{medAcct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{BPmeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{BPmedsSelf\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMmedsOral\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMmedsIns\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMMedType\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMmeds\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx934
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3801
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4712
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5985
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7433
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8732
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10500
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11499
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{J100079\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Complete recording of all participant's medication use\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Yes\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx934
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3801
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4712
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5985
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7433
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8732
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10500
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11499
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{J100180\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Complete recording of all participant's medication use\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Yes\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx934
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3801
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4712
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5985
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7433
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8732
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10500
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11499
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{J100228\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Complete recording of all participant's medication use\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Yes\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx934
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3801
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4712
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5985
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7433
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8732
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10500
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11499
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{J100291\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{Complete recording of all participant's medication use\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{Yes\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx934
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3801
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4712
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5985
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7433
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8732
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10500
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11499
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{J100333\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Complete recording of all participant's medication use\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{Yes\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\pard\par
+\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2143
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3538
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4796
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6193
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7789
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{statinMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{hrtMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{betaBlkMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{calBlkMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{diureticMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{antiArythMeds\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2143
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3538
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4796
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6193
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7789
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2143
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3538
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4796
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6193
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7789
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2143
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3538
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4796
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6193
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7789
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2143
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3538
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4796
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6193
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7789
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2143
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3538
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4796
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6193
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7789
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{No\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{Univariate summary stats: categorical\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX1}{\*\bkmkend IDX1}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9904
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Medication Accountability\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5346
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6493
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7410
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8657
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9904
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{medAcct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5346
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6493
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7410
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8657
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9904
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{10\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.24\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{10\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.24\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5346
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6493
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7410
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8657
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9904
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Incomplete recording of participant's medication use\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{576\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.70\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5346
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6493
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7410
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8657
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9904
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Participant reported that no medication use\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{304\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{7.23\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{890\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{21.17\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5346
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6493
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7410
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8657
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9904
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Complete recording of all participant's medication use\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3315\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{78.83\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX2}{\*\bkmkend IDX2}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5479
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Blood Pressure Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx921
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2068
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2985
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4232
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5479
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{BPmeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx921
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2068
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2985
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4232
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5479
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx921
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2068
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2985
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4232
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5479
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX3}{\*\bkmkend IDX3}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5841
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Self-Reported BP Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2430
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3347
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4594
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5841
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{BPmedsSelf\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2430
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3347
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4594
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5841
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{32\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.76\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{32\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.76\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2430
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3347
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4594
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5841
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1536\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{36.53\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1568\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{37.29\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1283
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2430
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3347
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4594
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5841
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Yes\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2637\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{62.71\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX4}{\*\bkmkend IDX4}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6016
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Diabetic Oral Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1458
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2605
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3522
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4769
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6016
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMmedsOral\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1458
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2605
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3522
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4769
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6016
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1458
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2605
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3522
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4769
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6016
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX5}{\*\bkmkend IDX5}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5867
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Diabetic Insulin Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1309
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2456
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3373
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4620
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5867
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMmedsIns\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1309
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2456
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3373
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4620
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5867
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1309
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2456
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3373
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4620
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5867
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX6}{\*\bkmkend IDX6}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7049
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Type of Diabetic Medication\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2491
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3638
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4555
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5802
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7049
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMMedType\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2491
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3638
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4555
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5802
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7049
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2491
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3638
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4555
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5802
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7049
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX7}{\*\bkmkend IDX7}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5567
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Diabetic Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2156
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3073
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4320
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5567
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DMmeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2156
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3073
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4320
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5567
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1009
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2156
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3073
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4320
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5567
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX8}{\*\bkmkend IDX8}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5753
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Statin Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2342
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3259
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4506
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5753
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{statinMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2342
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3259
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4506
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5753
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1195
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2342
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3259
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4506
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5753
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX9}{\*\bkmkend IDX9}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5516
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Hormone Replacement Therapy Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx958
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2105
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3022
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4269
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5516
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{hrtMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx958
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2105
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3022
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4269
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5516
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx958
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2105
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3022
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4269
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5516
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX10}{\*\bkmkend IDX10}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5963
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Beta Blocker Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2552
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3469
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4716
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5963
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{betaBlkMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2552
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3469
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4716
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5963
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1405
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2552
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3469
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4716
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5963
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX11}{\*\bkmkend IDX11}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5826
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Calcium Channel Blocker Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1268
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2415
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3332
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4579
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5826
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{calBlkMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1268
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2415
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3332
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4579
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5826
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1268
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2415
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3332
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4579
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5826
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX12}{\*\bkmkend IDX12}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5965
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Diuretic Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1407
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2554
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3471
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4718
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5965
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{diureticMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1407
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2554
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3471
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4718
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5965
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1407
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2554
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3471
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4718
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5965
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX13}{\*\bkmkend IDX13}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6164
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Antiarrhythmic Medication Status (Y/N)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1606
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2753
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3670
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4917
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6164
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{antiArythMeds\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Percent\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Frequency\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Cumulative{\line}
+Percent\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1606
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2753
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3670
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4917
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6164
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{13.94\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1606
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2753
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3670
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4917
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6164
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{100.00\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{BPmeds vs BPmedsSelf\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX14}{\*\bkmkend IDX14}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4609
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Table\~of\~BPmeds\~by\~BPmedsSelf\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1557
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4609
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{BPmeds(Blood Pressure Medication Status (Y/N))\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{BPmedsSelf(Self-Reported BP Medication Status (Y/N))\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1557
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2320
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3083
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3846
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4609
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Frequency{\line}
+Percent{\line}
+Row\~Pct{\line}
+Col\~Pct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Yes\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1557
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2320
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3083
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3846
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4609
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{21{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.50{\line}
+3.58{\line}
+65.63\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{224{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 5.33{\line}
+38.23{\line}
+14.58\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{341{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 8.11{\line}
+58.19{\line}
+12.93\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1557
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2320
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3083
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3846
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4609
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{11{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.26{\line}
+0.30{\line}
+34.38\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1312{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 31.20{\line}
+36.25{\line}
+85.42\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2296{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 54.60{\line}
+63.44{\line}
+87.07\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1557
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2320
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3083
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3846
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4609
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Total\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{32{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.76\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1536{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 36.53\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2637{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 62.71\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 100.00\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{DMMeds vs DMMedType\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX15}{\*\bkmkend IDX15}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5112
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Table\~of\~DMmeds\~by\~DMMedType\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1881
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5112
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmeds(Diabetic Medication Status (Y/N))\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMMedType(Type of Diabetic Medication)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1881
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2848
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4145
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5112
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Frequency{\line}
+Percent{\line}
+Row\~Pct{\line}
+Col\~Pct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1881
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2848
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4145
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5112
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1881
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2848
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4145
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5112
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1881
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2848
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4145
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5112
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Total\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 100.00\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{DMmedsoral vs DMMedType\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX16}{\*\bkmkend IDX16}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5785
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Table\~of\~DMmedsOral\~by\~DMMedType\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5785
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmedsOral(Diabetic Oral Medication Status (Y/N))\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMMedType(Type of Diabetic Medication)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3409
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4706
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5785
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Frequency{\line}
+Percent{\line}
+Row\~Pct{\line}
+Col\~Pct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3409
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4706
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5785
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3409
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4706
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5785
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3409
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4706
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5785
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Total\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 100.00\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{DMmedsins vs DMMedType\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX17}{\*\bkmkend IDX17}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5562
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Table\~of\~DMmedsIns\~by\~DMMedType\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5562
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmedsIns(Diabetic Insulin Medication Status (Y/N))\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMMedType(Type of Diabetic Medication)\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3223
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4520
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5562
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Frequency{\line}
+Percent{\line}
+Row\~Pct{\line}
+Col\~Pct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No Diabetic Medications\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3223
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4520
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5562
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3223
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4520
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5562
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3223
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4520
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5562
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Total\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 100.00\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{DMmedsoral vs DMMeds\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX18}{\*\bkmkend IDX18}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5249
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Table\~of\~DMmedsOral\~by\~DMmeds\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5249
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmedsOral(Diabetic Oral Medication Status (Y/N))\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmeds(Diabetic Medication Status (Y/N))\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3303
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4276
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5249
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Frequency{\line}
+Percent{\line}
+Row\~Pct{\line}
+Col\~Pct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3303
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4276
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5249
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3303
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4276
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5249
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2330
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3303
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4276
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5249
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Total\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 100.00\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs26\cf1{DMmedsins vs DMMeds\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trql
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx2251
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{The FREQ Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX19}{\*\bkmkend IDX19}\trowd\trkeep\trhdr\trql
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4989
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Table\~of\~DMmedsIns\~by\~DMmeds\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4989
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmedsIns(Diabetic Insulin Medication Status (Y/N))\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{DMmeds(Diabetic Medication Status (Y/N))\cell}
+{\row}
+\trowd\trkeep\trhdr\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4053
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4989
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Frequency{\line}
+Percent{\line}
+Row\~Pct{\line}
+Col\~Pct\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4053
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4989
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{.\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4053
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4989
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{No\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 0.00{\line}
+0.00{\line}
+0.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+100.00{\line}
+100.00\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06{\line}
+{\line}
+\cell}
+{\row}
+\trowd\trkeep\trql
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2181
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3117
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4053
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4989
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Total\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{586{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 13.94\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3619{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 86.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4205{\line}
+\animtext0\ul0\strike0\b0\i0\f1\fs20\cf1 100.00\cell}
+{\row}
+\pard}
